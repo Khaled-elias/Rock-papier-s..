@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+
+
+
+
+  <section>
+    <h2>how many rounds?</h2>
+    <div id="rounds" >
+    <div id="flexRrounds1">
+
+    <input type="radio" name="auswahl" id="5">
+    <label for="5">5</label>
+    <input type="radio" name="auswahl" id="10">
+    <label for="10">10</label>
+
+   </div>
+
+
+    <div id="flexRrounds">
+
+    <input type="radio" name="auswahl" id="15">
+    <label for="15">15</label>
+    <input type="radio" name="auswahl" id="20">
+    <label for="20">20</label>
+
+    </div>
+    </div>
+  </section>
+    
+	  <div class="results">
+	    <h3 id="user" >USER</h3>
+	     
+        
+          <h1 id="result-user">0</h1>
+          <h1 id="distanc"> : </h1>
+        
+        <h1 id="result-comp">0</h1>
+        
+       
+        <h3 id="comp">  COMP  </h3>
+       
+        
+      </div>
+  
+     <h1 id="ergebnis">let's play</h1>
+     <h2 id="wieder" ></h2>
+	  
+      <div class="selections">
+	    <button  onclick="play(0)" class="selection" id="selection">✊</button>
+	    <button  onclick="play(1)" class="selection" id="selection">✋</button>
+	    <button  onclick="play(2)" class="selection" id="selection">✌</button>
+      </div>
+      
+      <h1 id="restart" ><a href="">Restart</a></h1>
+       
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
